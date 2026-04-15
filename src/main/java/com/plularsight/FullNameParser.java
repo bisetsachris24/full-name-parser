@@ -5,11 +5,11 @@ import java.util.Scanner;
 public class FullNameParser {
     public static void main(String[] args) {
 
-        Scanner scanner = new Scanner(System.in);
+        Scanner theScanner = new Scanner(System.in);
 
         // Prompt user
         System.out.print("Please enter your name: ");
-        String fullName = scanner.nextLine().trim();
+        String fullName = theScanner.nextLine().trim();
 
         // Split the name
         String[] parts = fullName.split(" ");
